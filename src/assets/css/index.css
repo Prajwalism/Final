@@ -1,0 +1,376 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap");
+
+/* COMPONENTS FOR LATER */
+
+/* css for the main pages and layouts */
+.container {
+  position: absolute;
+  left: 40px;
+
+  width: 1360px;
+  height: 640px;
+
+  background: linear-gradient(180deg, #1a83fb 20.34%, #0056b8 95%);
+  border-radius: 0px 0px 20px 20px;
+}
+
+.container-2 {
+  position: absolute;
+  top: 680px;
+  left: 40px;
+
+  width: 1360px;
+  height: 900px;
+  background: #fff3f2;
+
+  border-radius: 20px;
+}
+
+.container-3 {
+  position: absolute;
+  left: 120px;
+  top: 1620px;
+
+  width: 1200px;
+  height: 740px;
+
+  background: #dcf1fe;
+  border-radius: 20px;
+}
+
+.container-4 {
+  position: absolute;
+  top: 2400px;
+  left: 120px;
+
+  width: 1360px;
+  height: 500px;
+}
+
+/* CSS For Home/navbar */
+.navbar {
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: 120px;
+  padding: 16px 16px 16px 0px;
+}
+
+.navbar .img {
+  padding-left: 78px;
+}
+
+.navbar ul li button {
+  border: solid;
+  border-width: 0.25px;
+  padding: 7px 20px;
+  border-radius: 7px;
+}
+
+.menu {
+  width: 350px;
+  padding: 10px;
+}
+
+.menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  color: white;
+  letter-spacing: 0.25px;
+  list-style: none;
+  width: 271px;
+}
+
+/* CSS for home/body  */
+
+.home-body {
+  display: flex;
+  
+  width: 100%;
+  height: 520px;
+}
+
+.obj1 {
+  width: 55%;
+  height: 100%;
+}
+
+.obj2 {
+  position: absolute;
+  top: 110px;
+  left: 800px;
+  width: 480px;
+  height: 480px;
+
+  background: url(../images/Image1.png);
+  border-radius: 20px;
+  background-size: cover;
+  box-sizing: border-box;
+}
+
+.obj1 article {
+  position: relative;
+  top: 116px;
+  left: 90px;
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  color: white;
+
+  width: 692px;
+  line-height: 56px;
+}
+
+.obj1 .ram {
+  position: relative;
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+
+  line-height: 24px;
+  width: 692px;
+  padding-top: 20px;
+}
+
+/* CSS For the objective page */
+
+.objective {
+  position: relative;
+  top: 77px;
+
+  display: flex;
+  justify-content: space-between;
+
+  width: 100%;
+  height: fit-content;
+}
+
+.content .a1 {
+  position: relative;
+  top: 56px;
+  left: 80px;
+
+  width: 672px;
+  height: 178px;
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.content .a2 {
+  position: relative;
+  top: 56px;
+  left: 80px;
+
+  width: 672px;
+  height: 240px;
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #212121;
+}
+
+.imagediv {
+  position: relative;
+  right: 70px;
+
+  background: url("../../assets/images/Image2.png");
+  width: 488px;
+  height: 540px;
+}
+
+.bottom {
+  position: relative;
+  top: 75px;
+  left: 5%;
+
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  height: fit-content;
+  /* border: solid; */
+}
+
+.b1,
+.b2,
+.b3 {
+  width: 33.33%;
+  height: auto;
+}
+
+img {
+  padding: 20px;
+}
+
+h2 {
+  width: 387px;
+}
+
+p {
+  position: relative;
+  top: 60px;
+  left: 80px;
+
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: #212121;
+}
+
+/* CSS for the Data Source page  */
+
+.one {
+  position: relative;
+  top: 66px;
+  left: 244px;
+
+  width: 692px;
+  height: 56px;
+  margin-bottom: 20px;
+}
+
+.one article {
+  font-family: "red hat display";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 56px;
+  color: #212121;
+  line-height: 57px;
+  text-align: center;
+}
+
+.two {
+  position: relative;
+  top: 66px;
+  left: 244px;
+
+  width: 692px;
+  height: 56px;
+  text-align: center;
+}
+
+.three {
+  position: relative;
+  top: 66px;
+  left: 244px;
+
+  align-content: center;
+  width: 692px;
+  height: fit-content;
+  text-align: center;
+}
+
+.three h1 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  padding-top: 68px;
+  text-transform: uppercase;
+  color: #ff4538;
+}
+
+.three img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.four {
+  position: relative;
+  top: 66px;
+  left: 244px;
+
+  width: 692px;
+  height: fit-content;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.four h1 {
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ff4538;
+}
+
+.five {
+  position: relative;
+  top: 66px;
+  left: 244px;
+
+  width: 692px;
+  height: fit-content;
+  text-align: center;
+
+  padding-top: 20px;
+  font-family: "Red Hat Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  color: #ff4538;
+  padding-top: 40px;
+}
+
+.five img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* CSS for the footer page */
+.foot {
+  background: url(../images/Footer.png);
+  width: 1199px;
+  height: 204px;
+}
+
+.last {
+  display : flex;
+  justify-content: space-around;
+  padding-top: 20px;
+  position: relative;
+  left: -75px;
+}
+
+.secondlast {
+  position: relative;
+  width: 1200px;
+  padding-top: 20px;
+  border-top: 1px solid #BDBDBD;
+}
